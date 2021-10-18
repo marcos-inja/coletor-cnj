@@ -27,11 +27,11 @@ else:
     sys.stderr.write("Invalid arguments, missing parameter: 'MONTH'.\n")
     os._exit(1)
 
-if "DRIVER_PATH" in os.environ:
-    driver_path = os.environ["DRIVER_PATH"]
-else:
-    sys.stderr.write("Invalid arguments, missing parameter: 'DRIVER_PATH'.\n")
-    os._exit(1)
+# if "DRIVER_PATH" in os.environ:
+#     driver_path = os.environ["DRIVER_PATH"]
+# else:
+#     sys.stderr.write("Invalid arguments, missing parameter: 'DRIVER_PATH'.\n")
+#     os._exit(1)
 
 if "OUTPUT_FOLDER" in os.environ:
     output_path = os.environ["OUTPUT_FOLDER"]
